@@ -14,7 +14,7 @@ body {
 
 /* bootstrap small or smaller (inclusive) */
 @media (max-width: 767.98px) {
-  .home-h4 {
+  .home-h3 {
     padding-top: 15px;
   }
 }
