@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+/*  position: relative;
+min-height: 100%;*/
+}
+
+body {
+  padding: 70px 15px 71px 15px;
+}
+
+.home-content {
+  padding-top: 15px
+}
+
+/* bootstrap small or smaller (inclusive) */
+@media (max-width: 767.98px) {
+  .home-h4 {
+    padding-top: 15px;
+  }
+}
+
+/* Extra small devices (portrait phones)*/
+/*@media (max-width: 575.98px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+}*/
+
+/* Small and medium devices (landscape phones, tablets*/
+/*@media (min-width: 576px) and (max-width: 991.98px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr;
+  }
+}*/
+
+/* Large and extra large devices (desktops, large desktops) */
+/*@media (min-width: 992px) and (max-width: 1199.98px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}*/
